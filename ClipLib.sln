@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4CCC7187-E691-4249-A106-FA264CD6E494}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClipLibWasm", "src\ClipLibWasm\ClipLibWasm.csproj", "{2C9134D0-F20F-43A2-A49D-60CB99080F36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipLib.Core", "src\ClipLib.Core\ClipLib.Core.csproj", "{0A8DE842-E4DA-4725-946A-E81F9C1BEA65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C9134D0-F20F-43A2-A49D-60CB99080F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9134D0-F20F-43A2-A49D-60CB99080F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9134D0-F20F-43A2-A49D-60CB99080F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9134D0-F20F-43A2-A49D-60CB99080F36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A8DE842-E4DA-4725-946A-E81F9C1BEA65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A8DE842-E4DA-4725-946A-E81F9C1BEA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A8DE842-E4DA-4725-946A-E81F9C1BEA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A8DE842-E4DA-4725-946A-E81F9C1BEA65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C9134D0-F20F-43A2-A49D-60CB99080F36} = {4CCC7187-E691-4249-A106-FA264CD6E494}
+		{0A8DE842-E4DA-4725-946A-E81F9C1BEA65} = {4CCC7187-E691-4249-A106-FA264CD6E494}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75CF4A27-B242-43B4-8699-B586F71132AB}
+	EndGlobalSection
+EndGlobal
